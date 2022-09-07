@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #eff3ff;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+#card {
+    background-color: white;
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 0.15);
+    border-radius: 10px;
+}
+#card img {
+    display: block;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+#btn {
+    display: block;
+    padding: 15px 60px;
+    font-size: 18px;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
